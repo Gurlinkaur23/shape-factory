@@ -15,4 +15,4 @@ A web application that allows users to create different shapes with different co
 - CSS
 - JavaScript
 
-Click [here](#) to see the live demonstration of the project.
+Click [here](https://gurlinkaur23.github.io/shape-factory/) to see the live demonstration of the project.
