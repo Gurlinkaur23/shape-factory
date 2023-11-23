@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Shape Factory</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,500;6..12,600&display=swap"
+    />
+    <link rel="stylesheet" href="./assets/style/index.css" media="all" />
+    <script src="./assets/script/app.js" type="module"></script>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <h1>Shape Factory</h1>
+        <div class="selection">
+            <select class="select-shape">
+                <option value="" disabled selected hidden>Shape</option>
+                <option value="circle">Circle</option>
+                <option value="square">Square</option>
+            </select>
+            <select class="select-color">
+                <option value="" disabled selected hidden>Color</option>
+                <option value="blue">Blue</option>
+                <option value="green">Green</option>
+                <option value="orange">Orange</option>
+                <option value="pink">Pink</option>
+                <option value="purple">Purple</option>
+            </select>
+            <button class="btn create">Create</button>
+        </div>
+        <div class="shape-container"></div>
+        <p class="info-text">Create shapes by selecting options and clicking "Create" :)</p>
+        <button class="btn clear">Clear</button>
+      </div>
+    </main>
+  </body>
+</html>
